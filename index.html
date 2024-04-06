@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to Assignment 8: Quiz Game</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .container {
+            text-align: center;
+            background-color: white;
+            border-radius: 10px;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .contributors {
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+        .contributor {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 10px;
+        }
+        .contributor span {
+            font-weight: bold;
+            margin-right: 10px;
+        }
+        .start-button {
+            background-color: #007bff;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        .start-button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>414454: Lab Practice - V (Distributed Systems)</h2>
+        <h1>Welcome to Assignment 8: DotsAndBoxes Game</h1>
+        <div class="contributors">
+            <div class="contributor">
+                <span>Samyak Burnure</span>
+                <span>407A023</span>
+            </div>
+            <div class="contributor">
+                <span>Akash Kamat</span>
+                <span>407A007</span>
+            </div>
+            <div class="contributor">
+                <span>Vivek Ahire</span>
+                <span>407A006</span>
+            </div>
+            <div class="contributor">
+                <span>Kunal Bhagat</span>
+                <span>407A015</span>
+            </div>
+        </div>
+        <div class="quiz-container">
+            <!-- <p>This is some introductory text about the quiz.</p> -->
+            <button class="start-button" onclick="startQuiz()">Let's Start</button>
+        </div>
+    </div>
+
+    <script>
+        function startQuiz() {
+            window.location.href = "game.html";
+        }
+    </script>
+</body>
+</html>
